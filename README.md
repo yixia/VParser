@@ -8,7 +8,7 @@ License
 ==========
 
 
-    Copyright (C) 2012 YIXIA.COM
+    Copyright (C) 2013 YIXIA.COM
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
