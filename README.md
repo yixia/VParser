@@ -1,7 +1,7 @@
 VParser
 =======
 
-A powerful parse video real url from video website library for Android
+A powerful Android library to sniff the real video URL from video sites.
 
 
 License
