@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VParser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="website_url">Website url:</string>
+    <string name="sample">http://v.youku.com/v_show/id_XMzMyNzM5NDUy.html</string>
+    <string name="btn_parser">Parse</string>
+
+</resources>
