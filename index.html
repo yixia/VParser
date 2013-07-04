@@ -83,9 +83,14 @@
             <h4>HOW TO USE</h4>
             <p>VParser is powerful and easy to use!</p>
             <pre class="prettyprint">
-  Video video = new VParser(context).parse(url);
-  String videoTitle = video.title;
-  String videoUri = video.videoUri;
+Video video = new VParser(context).parse(url);
+String videoTitle = video.title;
+String videoUri = video.videoUri;
+            </pre>
+
+            <p>Need permissions</p>
+            <pre class="prettyprint">
+&lt;uses-permission android:name="android.permission.INTERNET" /&gt;
             </pre>
 
             <h3 id="license">License</h3>
