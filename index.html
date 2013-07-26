@@ -84,9 +84,17 @@
             <h4>HOW TO USE</h4>
             <p>VParser is powerful and easy to use!</p>
             <pre class="prettyprint">
+// For Android
 Video video = new VParser(context).parse(url);
 String videoTitle = video.title;
 String videoUri = video.videoUri;
+
+// For iOS
+mParser = [VParser defaultParser];
+NSDictionary *retDict = [mParser parseURL:siteUrl];
+self.videoUrlLbl.text = retDict[VParserVideoURLKey];
+self.titleLbl.text = retDict[VParserVideoTitleKey];
+self.headerLbl.text = retDict[VParserWebSiteHeaderKey];
             </pre>
 
             <p>Need permissions</p>
