@@ -77,7 +77,7 @@
             </ul>
             <p>If there don't have the video website you need, please send it to vplayer#yixia.com </p>
             <h3 id="download">Download</h3>
-            <p><a href="https://github.com/yixia/VParser/archive/master.zip" class="dl version-href">&darr; <span class="version-tag">Latest</span> JAR for Android</a></p>
+            <p><a href="https://github.com/yixia/VParser/releases" class="dl version-href">&darr; <span class="version-tag">Latest</span> JAR for Android</a></p>
             <p><a href="https://github.com/yixia/VParser-iOS/releases" class="dl version-href">&darr; <span class="version-tag">Latest</span> Lib for iOS</a></p>
             <p>The source code to the VParser, its samples, and this website is <a href="https://github.com/yixia/VParser">available on GitHub</a>.</p>
 
@@ -88,6 +88,9 @@
 Video video = new VParser(context).parse(url);
 String videoTitle = video.title;
 String videoUri = video.videoUri;
+String videoUriSD = video.videoUriSD;
+String videoUriED = video.videoUriED;
+String videoUriHD720 = video.videoUriHD720;
 
 // For iOS
 mParser = [VParser defaultParser];
