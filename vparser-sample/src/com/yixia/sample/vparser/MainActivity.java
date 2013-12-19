@@ -49,11 +49,13 @@ public class MainActivity extends Activity implements OnClickListener {
 			@Override
 			protected void onPostExecute(Video result) {
 			  super.onPostExecute(result);
-			  String title = result.title;
-			  String uri = result.videoUri;
-			  String website = result.videoSiteUri;
-			  mTitleView.setText(title);
-			  mUriView.setText(uri);
+			  if (result != null) {
+			  	String title = result.title;
+			  	String uri = result.videoUri;
+			  	String website = result.videoSiteUri;
+			  	mTitleView.setText(title);
+			  	mUriView.setText(uri);
+			  }
 			}
 			
 		}.execute(website);
